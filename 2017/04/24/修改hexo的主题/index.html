@@ -6,17 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>ZhuFeiXing</title>
+  <title>修改hexo的主题 | ZhuFeiXing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="iOS">
-<meta property="og:type" content="website">
-<meta property="og:title" content="ZhuFeiXing">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="安装主题">
+<meta name="keywords" content="Hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="修改hexo的主题">
+<meta property="og:url" content="http://yoursite.com/2017/04/24/修改hexo的主题/index.html">
 <meta property="og:site_name" content="ZhuFeiXing">
-<meta property="og:description" content="iOS">
+<meta property="og:description" content="安装主题">
+<meta property="og:updated_time" content="2017-04-24T09:32:09.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ZhuFeiXing">
-<meta name="twitter:description" content="iOS">
+<meta name="twitter:title" content="修改hexo的主题">
+<meta name="twitter:description" content="安装主题">
   
     <link rel="alternative" href="/atom.xml" title="ZhuFeiXing" type="application/atom+xml">
   
@@ -136,16 +138,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-修改hexo的主题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-修改hexo的主题" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/24/修改hexo的主题/">修改hexo的主题</a>
+    <h1 class="article-title" itemprop="name">
+      修改hexo的主题
     </h1>
   
 
@@ -158,12 +158,70 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2>
-        
-          <a class="article-more-a" href="/2017/04/24/修改hexo的主题/#more">more >></a>
-        
+        <h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><a id="more"></a>
+<ul>
+<li>1.主题推荐<ul>
+<li><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">主题列表</a></li>
+</ul>
+</li>
+<li><p>2.不错的主题</p>
+<ul>
+<li><a href="https://github.com/daisygao/hexo-themes-cover" target="_blank" rel="external">Cover</a></li>
+<li><a href="https://github.com/henryhuang/oishi" target="_blank" rel="external">Oishi</a></li>
+<li><a href="https://github.com/SuperKieran/TKL" target="_blank" rel="external">TKL</a></li>
+<li><a href="https://github.com/levonlin/Tinnypp" target="_blank" rel="external">Tinnypp</a></li>
+<li><a href="https://github.com/yunlzheng/hexo-themes-writing" target="_blank" rel="external">Writing</a></li>
+<li><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">Yilia</a></li>
+<li><a href="https://github.com/Voidly/pacman" target="_blank" rel="external">Pacman voidy</a></li>
+<li><p>3.安装Yilia主题</p>
+<ul>
+<li>进入你创建blog的根目录</li>
+<li><p>安装Yilia主题</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</div></pre></td></tr></table></figure>
+</li>
+<li><p>如果安装成功themes目录下就会有yilia文件夹</p>
+</li>
+<li><p>修改根目录下<code>_config.yml</code>的配置</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">themes:yilia</div></pre></td></tr></table></figure>
+</li>
+<li><p>修改yilia目录下<code>_config.yml</code>文件：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div></pre></td><td class="code"><pre><div class="line"># Header</div><div class="line"></div><div class="line">menu:</div><div class="line">  主页: /</div><div class="line">  随笔: /tags/随笔/</div><div class="line"></div><div class="line"># SubNav</div><div class="line">subnav:</div><div class="line">  github: &quot;#&quot;</div><div class="line">  weibo: &quot;#&quot;</div><div class="line">  rss: &quot;#&quot;</div><div class="line">  zhihu: &quot;#&quot;</div><div class="line">  #qq: &quot;#&quot;</div><div class="line">  #weixin: &quot;#&quot;</div><div class="line">  #jianshu: &quot;#&quot;</div><div class="line">  #douban: &quot;#&quot;</div><div class="line">  #segmentfault: &quot;#&quot;</div><div class="line">  #bilibili: &quot;#&quot;</div><div class="line">  #acfun: &quot;#&quot;</div><div class="line">  #mail: &quot;mailto:litten225@qq.com&quot;</div><div class="line">  #facebook: &quot;#&quot;</div><div class="line">  #google: &quot;#&quot;</div><div class="line">  #twitter: &quot;#&quot;</div><div class="line">  #linkedin: &quot;#&quot;</div><div class="line"></div><div class="line">rss: /atom.xml</div><div class="line"></div><div class="line"># 是否需要修改 root 路径</div><div class="line"># 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，</div><div class="line"># 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。</div><div class="line">root: </div><div class="line"></div><div class="line"># Content</div><div class="line"></div><div class="line"># 文章太长，截断按钮文字</div><div class="line">excerpt_link: more</div><div class="line"># 文章卡片右下角常驻链接，不需要请设置为false</div><div class="line">show_all_link: &apos;展开全文&apos;</div><div class="line"># 数学公式</div><div class="line">mathjax: false</div><div class="line"># 是否在新窗口打开链接</div><div class="line">open_in_new: false</div><div class="line"></div><div class="line"># 打赏</div><div class="line"># 请在需要打赏的文章的md文件头部，设置属性reward: true</div><div class="line"></div><div class="line"># 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏</div><div class="line">reward_type: 2</div><div class="line"># 打赏wording</div><div class="line">reward_wording: &apos;谢谢你请我吃糖果&apos;</div><div class="line"># 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg</div><div class="line">alipay: </div><div class="line"># 微信二维码图片地址</div><div class="line">weixin: </div><div class="line"></div><div class="line"># Miscellaneous</div><div class="line">baidu_analytics: &apos;&apos;</div><div class="line">google_analytics: &apos;&apos;</div><div class="line">favicon: /favicon.png</div><div class="line"></div><div class="line">#你的头像url</div><div class="line">avatar:</div><div class="line"></div><div class="line">#是否开启分享</div><div class="line">share_jia: true</div><div class="line"></div><div class="line">#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key</div><div class="line">#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论</div><div class="line">duoshuo: false</div><div class="line"></div><div class="line"># 样式定制 - 一般不需要修改，除非有很强的定制欲望…</div><div class="line">style:</div><div class="line">  # 头像上面的背景颜色</div><div class="line">  header: &apos;#4d4d4d&apos;</div><div class="line">  # 右滑板块背景</div><div class="line">  slider: &apos;linear-gradient(200deg,#a0cfe4,#e8c37e)&apos;</div><div class="line"></div><div class="line"># slider的设置</div><div class="line">slider:</div><div class="line">  # 是否默认展开tags板块</div><div class="line">  showTags: false</div><div class="line">  </div><div class="line"># 智能菜单</div><div class="line"># 如不需要，将该对应项置为false</div><div class="line"># 比如</div><div class="line">#smart_menu:</div><div class="line">#  friends: false</div><div class="line">smart_menu:</div><div class="line">  innerArchive: &apos;所有文章&apos;</div><div class="line">  friends: &apos;友链&apos;</div><div class="line">  aboutme: &apos;关于我&apos;</div><div class="line"></div><div class="line">friends:</div><div class="line">  友情链接1: http://localhost:4000/</div><div class="line">  友情链接2: http://localhost:4000/</div><div class="line">  友情链接3: http://localhost:4000/</div><div class="line">  友情链接4: http://localhost:4000/</div><div class="line">  友情链接5: http://localhost:4000/</div><div class="line">  友情链接6: http://localhost:4000/</div><div class="line"></div><div class="line">aboutme: 很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>修改后执行以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div><div class="line">$ hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="MarkDown语法"><a href="#MarkDown语法" class="headerlink" title="MarkDown语法"></a>MarkDown语法</h2><ul>
+<li><a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="external">MarkDown语法参考链接</a></li>
+</ul>
+
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -183,32 +241,118 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/04/24/修改hexo的主题/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/04/24/修改hexo的主题/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
 
+  
+<nav id="article-nav">
+  
+    <a href="/2017/04/24/如何使用hexo搭建blog/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          如何使用hexo搭建blog
+        
+      </div>
+    </a>
+  
+  
+</nav>
 
 
+
+
+
+  
+  
+  
+
+  
+
+  
 
 <!-- 目录内容 -->
 
+<p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+<span class="btn-bg"></span>
+<span class="btn-text">文章导航</span>
+</p>
+<div id="toc-article" class="toc-article">
+<span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+<strong class="toc-title">文章目录</strong>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装主题"><span class="toc-number">1.</span> <span class="toc-text">安装主题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#MarkDown语法"><span class="toc-number">2.</span> <span class="toc-text">MarkDown语法</span></a></li></ol>
+</div>
+<script type="text/javascript">
+function showToc(){
+var toc_article = document.getElementById("toc-article");
+var show_toc_btn = document.getElementById("show-toc-btn");
+toc_article.setAttribute("style","display:block");
+show_toc_btn.setAttribute("style","display:none");
+};
+function showBtn(){
+var toc_article = document.getElementById("toc-article");
+var show_toc_btn = document.getElementById("show-toc-btn");
+toc_article.setAttribute("style","display:none");
+show_toc_btn.setAttribute("style","display:block");
+};
+</script>
+
 <!-- 目录内容结束 -->
-
-
-  
-  
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
-  
-
 
 
           </div>
@@ -230,8 +374,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
